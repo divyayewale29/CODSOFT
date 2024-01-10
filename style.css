@@ -1,0 +1,142 @@
+body{padding:0; margin:0;  font-family:segoe UI;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    height: 80px;
+    font-size: 18px;
+    background-color:gray;
+    padding: 5px;
+}
+.b{
+    font-size: 90px;
+    font-family:  sans-serif;
+     margin-left: 50px;
+     margin-top: 30px;
+}
+.nav-list{
+    list-style-type: none;
+}
+.li-item{
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 30px;
+    
+}
+.li-item:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    padding: 10px;
+}
+.container{
+    height: 600px;
+    background-color: whitesmoke;
+    display:flex;
+    background-image: url('./images/background.jpg');
+    background-repeat: no repeat;
+    background-size: cover;   
+}
+.div1{
+    height: 250px;
+    width: 400px;
+    
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.b{
+    font-size: 30px;
+    font-family: monospace;
+}
+.btn{
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+   font-weight: bold;
+   background-color: rgb(114, 101, 224);
+   
+   
+}
+.img1{
+    height: 25px;
+    margin-left: 5px;
+    
+}
+.div2{
+    
+    height: 300px;
+    width: 400px;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 110px;
+}
+.img2{
+    height: 250px;
+    width: 250px;
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.container2{ 
+    height: 600px;
+    display: flex;
+    background-color: whitesmoke;
+    
+}
+.div3{
+    height: 450px;
+    width: 550px;
+    margin-left: 70px;
+    margin-top: 75px;
+    
+}
+.text{
+    font-size: 20px;
+    font-family: monospace;
+    
+}
+.container3{
+    height: 750px;
+    border-radius: 10px;
+    background-image: url('./images/background2.jpg');
+    background-repeat: no repeat;
+    background-size: cover;  
+}
+.img3{
+    height: 55px;
+    margin-left: 550px;
+    margin-top: 10px;
+   
+}
+.div4{
+    height: 200px;
+    width: 900px;
+    margin-left: 300px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.container4{
+    height: 600px;
+    background-color: whitesmoke
+}
+.img4{
+    height: 50px;
+    width: 40px;
+    margin-left: 550px;
+    margin-top: 10px;
+}
+.div5{
+    height: 150px;
+    width: 900px;
+    background-color: red;
+    margin-left: 300px;
+    display: flex;
+}
+.img5{
+    height: 150px;
+    width: 200px;
+}
