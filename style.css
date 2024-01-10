@@ -147,6 +147,11 @@ body{padding:0; margin:0;  font-family:segoe UI;
 }
 .container5{
     height: 600px;
-    background-color: rgb(9, 9, 31);
+    background-color:white
    
+}
+.img6{
+    height: 50px;
+    width: 50px;
+    margin-left: 550px;
 }
