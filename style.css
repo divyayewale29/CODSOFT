@@ -160,5 +160,26 @@ body{padding:0; margin:0;  font-family:segoe UI;
     margin-left: 550px;
     margin-top: 10px;
 }
-
+.div6{
+    height: 550px;
+    background-color: red;
+}
+.img7{
+    height: 50px;
+    width: 50px;
+    margin-left: 600px;
+}
+.container6{
+    background-color: yellow;
+    height:550px;
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+}
+.div7{
+    height: 500px;
+    width: 800px;
+    background-color: pink;
+    margin-left:400px;
+}
 
