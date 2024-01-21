@@ -96,27 +96,14 @@ body{padding:0; margin:0;  font-family:segoe UI;
   border-radius: 15px;
 }
 .div2{
-  background-color:whitesmoke;
-  height: 550px;
+ 
+  height: 150px;
 }
 .div3{
   height: 450px;
-  background-color: pink;
   width: 350px;
-  margin-left: 50px; 
+  margin-left:150px; 
   
-}
-.btn3{
-  height: 50px;
-  width: 250px;
-  background-color: whitesmoke;
-  border-radius: 10px;
-  font-size: 23px;
-  color: #1a89bd;
-  border-color: white;
-  margin-left: 50px;
-  margin-top: 20px;
-  font-weight: bold;
 }
 .btn4{
   height: 55px;
@@ -133,5 +120,53 @@ body{padding:0; margin:0;  font-family:segoe UI;
 
 .btn4:hover{
   color:#1a89bd;
+  cursor: pointer;
+}
+.div4{
+  
+  margin-left: 150px;
+  height: 470px;
+  width: 350px;
+}
+.div5{
+  display: flex;
+  flex-direction: row;
+  background-color:whitesmoke;
+  border-radius: 10px; 
+}
+.div6{
+  height:470px;
+  width: 350px;
+  margin-left: 40px;
+  margin-right: 50xp;
+}
+.img2{
+  height: 470px;
+  width: 500px;
+  box-shadow: 5px 5px 2px 2px whitesmoke;
+  border-radius: 10px;
+}
+.div7{
+  height: 200px;
+}
+.div8{
+  height: 75px;
+  width: 700px;
+  background-color: black;
+  margin-left: 400px;
+  border-radius: 15px;
+}
+.btn5{
+  height: 30px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: hsl(35, 95%, 47%);
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+
+}
+.btn5:hover{
+  background-color: rgb(253, 106, 8);
   cursor: pointer;
 }
