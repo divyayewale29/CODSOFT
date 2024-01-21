@@ -62,7 +62,7 @@ body{padding:0; margin:0;  font-family:segoe UI;
 }
 .container{
   background-color: #fff5cc;
-  height: 2000px;
+  height: 450px;
   border-radius: 10px;
 }
 .div1{
@@ -79,9 +79,59 @@ body{padding:0; margin:0;  font-family:segoe UI;
   height: 50px;
   width: 300px;
   margin-left: 200px;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: orange;
   color: black;
   font-size: 20px;
   font-weight: bold;
+}
+.btn2:hover{
+  cursor: pointer;
+  background-color: #1a89bd ;
+}
+.img1{
+  height: 500px;
+  width: 1090px;
+  margin-left: 220px;
+  border-radius: 15px;
+}
+.div2{
+  background-color:whitesmoke;
+  height: 550px;
+}
+.div3{
+  height: 450px;
+  background-color: pink;
+  width: 350px;
+  margin-left: 50px; 
+  
+}
+.btn3{
+  height: 50px;
+  width: 250px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-size: 23px;
+  color: #1a89bd;
+  border-color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.btn4{
+  height: 55px;
+  width: 250px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  font-size: 23px;
+  color: black;
+  border-color: white;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.btn4:hover{
+  color:#1a89bd;
+  cursor: pointer;
 }
