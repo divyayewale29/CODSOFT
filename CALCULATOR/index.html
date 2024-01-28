@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function presssingbutton(btnvalue){
+            console.log(btnvalue)
+            let calcitxt=document.querySelector(".iscreen").value+btnvalue+"";
+            document.querySelector(".iscreen").value=calcitxt;
+        }
+
+        function calculation(){
+            let calcitxt=document.querySelector(".iscreen").value;
+            document.querySelector(".iscreen").value= eval(calcitxt);
+
+        }
+
+        function clr(){
+            document.querySelector(".iscreen").value= "";
+
+        }
+
+
+        function btn1on(){
+           let btn = document.getElementsByClassName("btn1on").value;
+           document.querySelector(".iscreen").value= eval(btn);
+        }
+
+        function btn1off(){
+           let btn = document.getElementsByClassName("btn1off").value;
+           document.querySelector(".iscreen").value="";
+        }
+    </script>
+  
+</head>
+<body>
+    <div class="container">
+        <span class="brand">CODSOFT</span>
+        <button class="btn1" onclick="btn1on()">ON</button>
+        <button class="btn1" onclick="btn1off()">OFF</button>
+        <div class="row">
+            <input type="text" class="iscreen"/>
+        </div>
+
+        <div class="row">
+            <button class="btn" onclick="presssingbutton(7)">7</but;ton>
+            <button class="btn" onclick="presssingbutton(8)">8</button>
+            <button class="btn" onclick="presssingbutton(9)">9</button>
+            <button class="btn bg-red" onclick="clr()">C</button>
+
+        </div>
+
+        <div class="row">
+            <button class="btn" onclick="presssingbutton(4)">4</but;ton>
+            <button class="btn" onclick="presssingbutton(5)">5</button>
+            <button class="btn" onclick="presssingbutton(6)">6</button>
+            <button class="btn bg-sky" onclick="presssingbutton('*')">*</button>
+
+        </div>
+
+
+        <div class="row">
+            <button class="btn" onclick="presssingbutton(1)">1</but;ton>
+            <button class="btn" onclick="presssingbutton(2)">2</button>
+            <button class="btn" onclick="presssingbutton(3)">3</button>
+            <button class="btn bg-sky" onclick="presssingbutton('/')">/</button>
+
+        </div>
+
+        
+        <div class="row">
+            <button class="btn" onclick="presssingbutton(0)">0</but;ton>
+            <button class="btn bg-sky" onclick="presssingbutton('+')">+</button>
+            <button class="btn bg-sky" onclick="calculation()">=</button>
+            <button class="btn bg-sky" onclick="presssingbutton('-')">-</button>
+        </div>
+    </div>
+    <b>Heyyy!!!</b><br>
+        <span class="sp">This calculator is designed to help you plan and execute your home improvement projects with confidence and precision..</span>   
+</body>
+</html>
